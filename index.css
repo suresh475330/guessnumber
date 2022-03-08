@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 68vh;
+    background-color: lightgreen;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+h3{
+    font-size: 20px;
+}
+input{
+    height: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+input:hover{
+    border: 2px solid peru;
+    background-color: lightcyan;
+}
+#btn{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+#btn:hover{
+    background-color:#ff96ad ;
+    box-shadow: 0 0 5px #ff96ad,0 0 25px #ff96ad,0 0 50px #ff96ad,0 0 200px #ff96ad;
+}
+
+p{
+    font-size: 20px;
+}
+h1{
+    color: brown;
+    font-size: 25px;
+}
+
+/* cookies ---- */
+
+
+.cookie{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    position: fixed;
+    bottom: -100%;
+    padding: 20px;
+}
+.cookie.active{
+    bottom: 0;
+}
+.btn2{
+    padding: 10px 45px;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.cookie h2{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.cookie h4{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+@media (max-width:405px){
+    .container{
+        width: 70%;
+    }
+    input{
+        width: 80%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 17px;
+        font-weight:bold;
+       }
+}
